@@ -4,9 +4,7 @@ import PackageDescription
 
 let package = Package(name: "ObjectMapper",
                       platforms: [.macOS(.v10_10),
-                                  .iOS(.v10),
-                                  .tvOS(.v9),
-                                  .watchOS(.v2)],
+                                  .iOS(.v12)],
                       products: [.library(name: "ObjectMapper",
                                           targets: ["ObjectMapper"])],
                       targets: [.target(name: "ObjectMapper",
